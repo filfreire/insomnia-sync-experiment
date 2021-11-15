@@ -1,0 +1,56 @@
+_id: spc_1bd218494fe248379096a5f9723f8605
+type: ApiSpec
+parentId: wrk_840ae195af1a4094a403b75e097ca988
+modified: 1636992759650
+created: 1636980067178
+fileName: inso-experiments.yaml
+contents: >-
+  openapi: 3.0.0
+
+  info:
+    title: Sample API
+    description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
+    version: 0.0.1
+  servers:
+    - url: http://mockbin.com
+      description: Optional server description, e.g. Main (production) server
+  paths:
+    /bin2/{binId}:
+      get:
+        summary: original summary to get bin2.
+        parameters:
+          - name: binId
+            in: path
+            required: true
+            description: Parameter description in CommonMark or HTML.
+            schema:
+              type : string
+              format: string
+        description: Updated description to get bin2.
+        responses:
+          '200':
+            description: example JSON
+            content:
+              application/json:
+                schema:
+                  type: object
+    /bin/{binId}:
+      get:
+        summary: edited summary to get bin.
+        parameters:
+          - name: binId
+            in: path
+            required: true
+            description: Parameter description in CommonMark or HTML.
+            schema:
+              type : string
+              format: string
+        description: Updated description to get bin.
+        responses:
+          '200':
+            description: example JSON
+            content:
+              application/json:
+                schema:
+                  type: object
+contentType: yaml

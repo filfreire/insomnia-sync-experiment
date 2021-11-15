@@ -1,0 +1,20 @@
+_id: env_env_6f8ab9afed0f60a9a4fec5fc3d7901a0b9b02b2b_sub
+type: Environment
+parentId: env_6f8ab9afed0f60a9a4fec5fc3d7901a0b9b02b2b
+modified: 1636980798954
+created: 1636980163169
+name: OpenAPI env
+data:
+  scheme: http
+  base_path: ""
+  host: mockbin.org
+  binId: a4d29cc9-0f83-435c-8def-ceaf15193acf
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - binId
+color: null
+isPrivate: false
+metaSortKey: 1636980163169

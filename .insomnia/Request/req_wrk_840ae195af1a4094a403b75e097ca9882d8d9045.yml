@@ -1,0 +1,21 @@
+_id: req_wrk_840ae195af1a4094a403b75e097ca9882d8d9045
+type: Request
+parentId: wrk_840ae195af1a4094a403b75e097ca988
+modified: 1636992247161
+created: 1636992247161
+url: "{{ base_url }}/bin2/{{ binId }}"
+name: original summary to get bin2.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1636992247161
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
