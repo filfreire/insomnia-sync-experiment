@@ -1,7 +1,7 @@
 _id: req_wrk_840ae195af1a4094a403b75e097ca988b5c89558
 type: Request
 parentId: wrk_840ae195af1a4094a403b75e097ca988
-modified: 1636993273892
+modified: 1636993328496
 created: 1636992247158
 url: "{{ base_url }}/bin/{{ binId }}"
 name: original summary to get bin.
@@ -10,8 +10,8 @@ method: GET
 body: {}
 parameters:
   - id: pair_1793f16df1144f9b8aba52226fe845f9
-    name: ""
-    value: ""
+    name: foo
+    value: bar
     description: ""
 headers: []
 authentication: {}
