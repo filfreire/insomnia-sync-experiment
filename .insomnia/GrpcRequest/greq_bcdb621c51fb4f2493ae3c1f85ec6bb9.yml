@@ -1,14 +1,22 @@
 _id: greq_bcdb621c51fb4f2493ae3c1f85ec6bb9
 type: GrpcRequest
 parentId: fld_318d5096b3d74df6ac4e95d2234ed27a
-modified: 1639047713298
+modified: 1639047788116
 created: 1639046505798
 url: "{{ _.grpc_base_url }}"
 name: GetFeature
 description: ""
 protoFileId: pf_20db62c1ebe44bac8760663ad9d18626
 protoMethodName: /routeguide.RouteGuide/GetFeature
-metadata: []
+metadata:
+  - id: pair_e3bd83082a344efe8fcf9f2c11ea47f3
+    name: test
+    value: test
+    description: ""
+  - id: pair_562659fbfb15418ba08631f1426c3698
+    name: foo
+    value: "{% uuid 'v4' %}"
+    description: ""
 body:
   text: |-
     {
