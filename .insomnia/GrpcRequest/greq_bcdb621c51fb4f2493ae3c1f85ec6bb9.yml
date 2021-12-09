@@ -1,0 +1,19 @@
+_id: greq_bcdb621c51fb4f2493ae3c1f85ec6bb9
+type: GrpcRequest
+parentId: fld_318d5096b3d74df6ac4e95d2234ed27a
+modified: 1639047713298
+created: 1639046505798
+url: "{{ _.grpc_base_url }}"
+name: GetFeature
+description: ""
+protoFileId: pf_20db62c1ebe44bac8760663ad9d18626
+protoMethodName: /routeguide.RouteGuide/GetFeature
+metadata: []
+body:
+  text: |-
+    {
+    	"latitude":"409146138",
+    	"longitude":"-746188906"
+    }
+metaSortKey: -1639046505798
+isPrivate: false
