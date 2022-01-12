@@ -1,10 +1,10 @@
 _id: ut_150db57f5c16459d966e36b32d9304aa
 type: UnitTest
 parentId: uts_e29d72a65e0d42ea8c88ade41e4d511e
-modified: 1636992471542
+modified: 1642008480259
 created: 1636992428381
 requestId: req_wrk_840ae195af1a4094a403b75e097ca9882d8d9045
-name: Returns 404
+name: Should return 404
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(404);
